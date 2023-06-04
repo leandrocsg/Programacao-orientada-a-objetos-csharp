@@ -1,7 +1,7 @@
 ﻿
 namespace Seção14_Interfaces.Services
 {
-    class BrazilTaxServices
+    class BrazilTaxService : ITaxService
     {
         public double Tax(double amount)
         {
